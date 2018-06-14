@@ -1,0 +1,28 @@
+.navbar{
+    background:linear-gradient(yellow,orange);
+}
+.btn-outline-success{
+    color:black;
+    border:1px solid orange;
+}
+.form-control{
+    color:orange;
+    border-color: white;
+    border: 1px solid orange;
+}
+.maincontent{
+    width: 100%;
+    height:600px;
+}
+.leftcontent{
+    width:20%;
+    height: 600px;
+    background-color: brown;
+    float: left;
+}
+.rightcontent{
+    width:80%;
+    height: 600px;
+    background-color: aqua;
+    float: left;
+}
