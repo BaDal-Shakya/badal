@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.landingmain{
+    background-image: url("../img/image.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.landingcontent{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.logodiv img{
+    width:200px;
+    position: absolute;
+}
+.menudiv{
+    color: white;
+    float: right;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.menudiv .menuitem{
+    float: left;
+    margin-right:20px;
+}
+.menuitem{
+    cursor: pointer;
+}
+.menuitem:hover{
+    color: aquamarine;
+    text-shadow: 0 0 15px aquamarine;
+
+}
+.landmain{
+    color:white;
+    text-align: center;
+    padding-top: 18%;
+}
+.landmain .welcome{
+    font-size: 40px;
+}
+.landmain .search input{
+    width: 300px;
+    height: 30px;
+    outline:none;
+    border-radius: 10px;
+    padding-left: 8px;
+    border-color: transparent;
+}
+.landmain .search input:focus{
+    box-shadow: 0 0 8px 5px aquamarine;
+}
+.landmain div{
+    margin-bottom: 10px;
+}
+
+.landmain .bigtext{
+    font-size: 20px;
+}
+
+.landmain .smalltext{
+    width: 50%;
+    margin: 0 auto;
+}
+
