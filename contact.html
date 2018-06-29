@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/landing.css">
+</head>
+<body>
+    <!-- <div class="landingmain">
+        <div class="landingcontent">
+            <div class="top">
+                <div class="logodiv">
+                    <img src="assets/img/indigogo.png">
+                </div>
+                <div class="menudiv">
+                    <div class="home menuitem">HOME</div>
+                    <div class="contact menuitem" onclick="window.location.href='contact.html'">CONTACT</div>
+                    <div class="about menuitem">ABOUT US</div>
+                    
+                </div>
+            </div> -->
+        <div class="maincontent">
+            <form>
+                FULL NAME: <input id="name" type="text">
+                EMAIL: <input id="email" type="text">
+                CONTACT: <input id="contact" type="text">
+                COMMENTS: <textarea name="" id="" cols="30" rows="10"></textarea>
+                <button onclick="validate();">SUBMIT</button>
+            </form>
+        
+        </div>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script>
+      function validate(){
+          var x=$('#name').val();
+          if(x==''){
+              alert('NAME FIELD IS EMPTY');
+                $('#name').focus();
+                $('#name').css('border-color','red');
+
+          }
+      }
+
+  </script>
+</html>
