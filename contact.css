@@ -1,0 +1,17 @@
+input{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    padding-left: 5px;
+    }
+body{
+    margin: 0;
+}
+.maincontent{
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+}
+body{
+    font-size: 25px;
+}
